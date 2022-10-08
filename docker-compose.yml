@@ -49,6 +49,8 @@ services:
       retries: 10
     networks:
       - lemp
+      
+  #PhpMyAdmin Service
   phpmyadmin:
     image: phpmyadmin/phpmyadmin:5
     container_name: iim_lemp_phpmyadmin
